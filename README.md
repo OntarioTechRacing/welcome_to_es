@@ -1,5 +1,31 @@
 # welcome_to_es
 
+![OTR Logo.png](OTR%20Logo.png)
+
+---
+
+<details markdown="1">
+  <summary>Table of Contents</summary>
+
+- [1 Introduction](#1-introduction)
+- [2 General Department Breakdown](#2-general-department-breakdown)
+    - [2.1 Engineering Disciplines](#21-engineering-disciplines)
+    - [2.2 Types of Projects](#22-types-of-projects)
+    - [2.3 Department Cooperatives](#23-department-cooperatives)
+- [3 Onboarding](#3-onboarding)
+    - [3.1 General Administrative Tools](#31-general-administrative-tools)
+    - [3.2 General Responsibilities & Policy](#32-general-responsibilities--policy)
+- [4 General Department Documentation](#4-general-department-documentation)
+- [5 Workflow](#5-workflow)
+- [6 Technical Onboarding](#6-technical-onboarding)
+    - [6.1 Bare Metal Programming](#61-bare-metal-programming)
+
+</details>
+
+---
+
+## 1 Introduction
+
 👋 **Welcome to the Embedded Software (ES) Department of Ontario Tech Racing!**
 
 This markdown file documents how our department operates, the typical workflow
@@ -7,21 +33,29 @@ and beginning steps for all new members of ES.
 
 > All TODO steps are block quoted like this.
 
-## 1.0 General Department Breakdown
+---
 
-Embedded Software (ES) is the department in charge of regions covering Embedded
-Systems, higher level programming and rapid systems prototyping.
+## 2 General Department Breakdown
+
+Embedded Software (ES) is the department in charge of regions covering embedded
+systems, higher level programming and rapid systems prototyping.
+
+### 2.1 Engineering Disciplines
 
 Our department covers many aspects of engineering, primarily:
 
-- 🤖 **Mechatronics Engineering** (embedded systems, control systems,
-  electromechanical machines).
-- ⚡ **Electrical Engineering** (circuits, electronics, digital systems,
-  semiconductors).
-- 💻 **Software Engineering** (version control, algorithms, data structures,
-  networking).
-- ⚙️ **Mechanical Engineering** (enclosures, vibrations).
-- _And much more!_
+- 🤖 **Mechatronics Engineering.**
+    - Bare metal programming, embedded systems, system design, control systems,
+      etc.
+- ⚡ **Electrical Engineering.**
+    - Circuits, electronics, digital systems, semiconductors, etc.
+- 💻 **Software Engineering.**
+    - Version control, algorithms, data structures, networking, etc.
+- ⚙️ **Mechanical Engineering.**
+    - Enclosures, vibrations, control systems, electromechanical systems, etc.
+- **And more!**
+
+### 2.2 Types of Projects
 
 Our primary projects fall within **6 main categories**:
 
@@ -38,6 +72,8 @@ Our primary projects fall within **6 main categories**:
 6. 🕹️ **Equipment.**
     - Build equipment for testing, simulation, manufacturing, etc.
 
+### 2.3 Department Cooperatives
+
 Due to the nature of our department, we also work mostly with the following
 departments:
 
@@ -46,9 +82,13 @@ departments:
 - **Electric Drivetrain (EDT).**
     - Engineering all high voltage and drivetrain aspects of our team.
 
-## 2.0 Department Registration and Onboarding
+---
 
-Our department and wider OTR team uses a verity of tools to organize technical
+## 3 Onboarding
+
+### 3.1 General Administrative Tools
+
+Our department and wider OTR team uses a variety of tools to organize technical
 work and run efficiently:
 
 > Send your `@ontariotechu.net` email and GitHub account username / email to the
@@ -78,9 +118,9 @@ work and run efficiently:
     - Our high level project management solution for all of OTR
       with [ES department board](https://ontario-tech-racing.monday.com/boards/3165097442).
 
-- It is highly recommended bookmark the pages above.
+- **_It is highly recommended bookmark the pages above._**
 
-## 3.0 General Department Responsibilities & Policy
+### 3.2 General Responsibilities & Policy
 
 The following are the general responsibilities and policy for our department /
 OTR team.
@@ -102,7 +142,9 @@ OTR team.
 4. Attending and supporting wider team meetings, work sessions, etc.
     - ~1-2 sessions per month.
 
-## 4.0 General Department Documentation
+---
+
+## 4 General Department Documentation
 
 All technical documentation about our department can be found on
 the [embedded repository](https://github.com/OntarioTechRacing/embedded).
@@ -111,12 +153,33 @@ For new members there will be too much information to take in at once. We don't
 expect you to know it all from the get go, but the department repository should
 be a point of reference going forwards.
 
-> Please review the embedded
->
-repository [`README.md`](https://github.com/OntarioTechRacing/embedded/blob/main/README.md)
+> Please review the embedded repository
+> [`README.md`](https://github.com/OntarioTechRacing/embedded/blob/main/README.md)
 > for an overview of the technical conventions and workflow of our department.
 
-## 5.0 Embedded Systems Onboarding
+---
+
+## 5 Workflow
+
+From a high-level view of our department, each member manages various projects.
+The projects are assigned by member interest, skill-set and urgency.
+
+Different projects follow different development cycles, you will be introduced
+to them towards the start of your first project contribution.
+
+You can view a list of our current ongoing and completed projects on
+monday.com and technical progress is on our GitHub project board (see department
+project board links above).
+
+> Look at the scrum board to see if any projects labeled (upcoming) interest
+> you. You might have a chance to contribute to a project as a project manager (
+> PM) or task manager (TM).
+
+---
+
+## 6 Technical Onboarding
+
+### 6.1 Bare Metal Programming
 
 Whether you are looking to focus on low-level hardware programming, high-level
 scripts or anything in between, all ES members should ideally contribute to
@@ -131,18 +194,3 @@ STM32 beginner guide has been created on the embedded
 repository: [stm32/getting_started](https://github.com/OntarioTechRacing/embedded/blob/main/resources/stm32/getting_started.md).
 
 > Complete the STM32 getting started training.
-
-## 6.0 Workflow
-
-From a high-level view of our department, each member manages various projects.
-The projects are assigned by member interest, skill-set and urgency.
-
-Different projects follow different development cycles, you will be introduced
-to them towards the start of your first project contribution.
-
-You can view a list of our current ongoing and completed projects on
-monday.com (see department project board link above).
-
-> Look at the scrum board to see if any projects labeled (upcoming) interest
-> you. You might have a chance to contribute to a project as a project manager (
-> PM) or task manager (TM).
