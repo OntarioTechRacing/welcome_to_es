@@ -134,7 +134,7 @@ OTR team.
       iteration (2 weeks) tracked by GitHub.
     - These contributions may entail more meetings and work sessions as
       applicable.
-    - Work may be a in-person, virtual or hybrid depending on the task.
+    - Work may be in-person, virtual or hybrid depending on the task.
 3. Active communications primarily via Slack.
 4. Attend and support team-wide meetings, work sessions, etc.
     - ~1-2 sessions per month.
