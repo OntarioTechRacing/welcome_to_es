@@ -127,19 +127,16 @@ OTR team.
 
 > Please take note of these!
 
-1. Weekly department meeting.
-2. 2 hour in-person minimum.
-    - All ES members must commit at least 2 hours of in-person work each week,
-      this includes:
-        - Working on your OTR project(s).
-        - Contributing time to someone else's OTR project.
-        - Cleaning up / organizing team facilities.
-        - etc.
-    - Meetings including weekly department meetings do not count towards the 2
-      hours unless the meeting is specifically for working on a project or team
-      responsibility.
-3. Active communications via Slack.
-4. Attending and supporting wider team meetings, work sessions, etc.
+1. Participate in weekly 1-hour department meeting.
+    - In person in ACE 5030 / ACE conference room, with backup Google Meets.
+2. Active contributions during every Scrum Iteration.
+    - All ES members must make progress and contributions through each Scrum
+      iteration (2 weeks) tracked by GitHub.
+    - These contributions may entail more meetings and work sessions as
+      applicable.
+    - Work may be a in-person, virtual or hybrid depending on the task.
+3. Active communications primarily via Slack.
+4. Attend and support team-wide meetings, work sessions, etc.
     - ~1-2 sessions per month.
 
 ---
