@@ -142,15 +142,13 @@ OTR team.
 ## 4 General Department Documentation
 
 All technical documentation about our department can be found on
-the [embedded repository](https://github.com/OntarioTechRacing/embedded).
+the [embedded repository](https://github.com/OntarioTechRacing/embedded) or
+through the GitHub pages version
+at [ontariotechracing.github.io/embedded/](https://ontariotechracing.github.io/embedded/).
 
 For new members there will be too much information to take in at once. We don't
 expect you to know it all from the get go, but the department repository should
 be a point of reference going forwards.
-
-> Please review the embedded repository
-> [`README.md`](https://github.com/OntarioTechRacing/embedded/blob/main/README.md)
-> for an overview of the technical conventions and workflow of our department.
 
 ---
 
@@ -167,8 +165,7 @@ monday.com and technical progress is on our GitHub project board (see department
 project board links above).
 
 > Look at the scrum board to see if any projects labeled (upcoming) interest
-> you. You might have a chance to contribute to a project as a project manager (
-> PM) or task manager (TM).
+> you.
 
 ---
 
