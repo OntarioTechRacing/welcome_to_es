@@ -1,7 +1,5 @@
 # welcome_to_es
 
-![OTR Logo.png](OTR%20Logo.png)
-
 ---
 
 <details markdown="1">
