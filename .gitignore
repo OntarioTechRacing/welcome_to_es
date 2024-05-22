@@ -1,15 +1,21 @@
-####################################################################################################
+################################################################################
+# devenv.gitignore
+# Base commit hash: 95328c5
+#
 # General Dev Environments
-####################################################################################################
+################################################################################
 
 # JetBrains IDEs
-# JetBrains specific template is maintained in a separate JetBrains.gitignore that can be found at
-#  https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore.
+# Based on: https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore.
 .idea/
 
-####################################################################################################
-# MacOS gitignore
-####################################################################################################
+################################################################################
+# macos.gitignore
+# Base commit hash: 95328c5
+#
+# macOS gitignore
+# Based on: https://github.com/github/gitignore/blob/main/Global/macOS.gitignore
+################################################################################
 
 # General
 .DS_Store
