@@ -14,9 +14,10 @@
     - [3.1 General Administrative Tools](#31-general-administrative-tools)
     - [3.2 General Responsibilities & Policy](#32-general-responsibilities--policy)
 - [4 General Department Documentation](#4-general-department-documentation)
-- [5 Workflow](#5-workflow)
+- [5 Projects & Tasks](#5-projects--tasks)
 - [6 Technical Onboarding](#6-technical-onboarding)
     - [6.1 Bare Metal Programming](#61-bare-metal-programming)
+    - [6.2 PCB Design](#62-pcb-design)
 
 </details>
 
@@ -106,15 +107,17 @@ work and run efficiently:
     - Our general calendar and scheduling solution.
 3. [GitHub Org: Ontario Tech Racing](https://github.com/OntarioTechRacing).
     - Our version control / devops solution for all ES work.
-    - [GitHub Org ES Project](https://github.com/orgs/OntarioTechRacing/projects/1)
-      for all our technical project management.
-4. [Slack](https://slack.com/).
-    - Our primary text based communication platform for all of OTR
-        - For virtual meetings we occasionally use Slack huddles, but mostly
-          use [Google Meets](https://meet.google.com/).
-5. [Monday.com](https://monday.com/).
-    - Our high level project management solution for all of OTR
-      with [ES department board](https://ontario-tech-racing.monday.com/boards/3165097442).
+    - Also stores the majority of internal technical documentation.
+4. Google
+   Sheets & [GitHub Org ES Project](https://github.com/orgs/OntarioTechRacing/projects/1)
+    - Our current high level project management solution.
+    - Some legacy tracking might require [Monday.com](https://monday.com/).
+5. [TBD]()~~[Ontario Tech Racing Slack](https://ontariotechracing.slack.com/)~~.
+    - Our primary text based communication platform for all of OTR.
+    - Legacy communications can be found
+      on [Ontario Tech Racing Slack](https://ontariotechracing.slack.com/).
+6. [Google Meets](https://meet.google.com/)
+    - Our virtual meeting solution.
 
 - **_It is highly recommended bookmark the pages above._**
 
@@ -125,17 +128,15 @@ OTR team.
 
 > Please take note of these!
 
-1. Participate in weekly 1-hour department meeting.
+1. Participate in weekly ~1-hour "All electrical & software" meeting.
     - In person in ACE 5030 / ACE conference room, with backup Google Meets.
-2. Active contributions during every Scrum Iteration.
-    - All ES members must make progress and contributions through each Scrum
-      iteration (2 weeks) tracked by GitHub.
-    - These contributions may entail more meetings and work sessions as
-      applicable.
+2. Active contributions to assigned subsystem teams and engineering work.
+    - All ES members must make progress and contributions tracked on GitHub.
+    - This may entail more meetings and work sessions as applicable.
     - Work may be in-person, virtual or hybrid depending on the task.
-3. Active communications primarily via Slack.
+3. Active communications.
 4. Attend and support team-wide meetings, work sessions, etc.
-    - ~1-2 sessions per month.
+    - ~2-4 meetings per month.
 
 ---
 
@@ -152,7 +153,7 @@ be a point of reference going forwards.
 
 ---
 
-## 5 Workflow
+## 5 Projects & Tasks
 
 From a high-level view of our department, each member manages various projects.
 The projects are assigned by member interest, skill-set and urgency.
@@ -160,29 +161,31 @@ The projects are assigned by member interest, skill-set and urgency.
 Different projects follow different development cycles, you will be introduced
 to them towards the start of your first project contribution.
 
-You can view a list of our current ongoing and completed projects on
-monday.com and technical progress is on our GitHub project board (see department
-project board links above).
-
-> Look at the scrum board to see if any projects labeled (upcoming) interest
-> you.
-
 ---
 
 ## 6 Technical Onboarding
 
+Whether you are looking to focus on low-level hardware programming, high-level
+scripts, PCB design or anything in between, all ES members should ideally
+contribute to development of OTR FSAE race car(s).
+
+- Our primary goal is to support engineering on the FSAE vehicles.
+- Currently, high level programming (automation, CI/CD devops, ML, etc) are not
+  priority.
+
 ### 6.1 Bare Metal Programming
 
-Whether you are looking to focus on low-level hardware programming, high-level
-scripts or anything in between, all ES members should ideally contribute to
-development of OTR FSAE EV.
-
-- Our primary goal is to support engineering on the FSAE EV.
-- High level programming (automation, CI/CD devops, ML, etc) are typically not
-  priority as of the current state of OTR.
-
-Our module level hardware runs on most commonly on STM32 microcontrollers. A
-STM32 beginner guide has been created on the embedded
-repository: [stm32/getting_started](https://github.com/OntarioTechRacing/embedded/blob/main/resources/stm32/getting_started.md).
+Our low-level hardware runs on most commonly on STM32 microcontrollers. A STM32
+beginner guide can be found
+here: [stm32/getting_started](https://github.com/OntarioTechRacing/embedded/blob/main/resources/stm32/getting_started.md).
 
 > Complete the STM32 getting started training.
+
+### 6.2 PCB Design
+
+PCBs allow for finalized packaging and development of more advanced circuits.
+Our current resources documentation can be found
+here: [kicad](https://ontariotechracing.github.io/embedded/resources/kicad.html).
+
+- Note: We are currently transitioning from Altium and the current KiCad
+  workflow and devops processes will likely change / update in the near future.
